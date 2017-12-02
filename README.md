@@ -1,4 +1,5 @@
 # Getting-and-Cleaning-Data
+
 The coursera Getting-and-Cleaning-Data Pourse Project
 
 The goal is to prepare tidy data that can be used for later analysis.
@@ -12,11 +13,14 @@ A R script called run_analysis.R was created that does the following.
    5.From the data set in step 4, creates a second, independent tidy data set with the average 
    of each variable for each activity and each subject.
    
-   The complete work contains:
+   The original data was collected through a seires of experiments that have been carried out with a group 
+   of 30 volunteers within an age bracket of 19-48 years.
+   
+   The complete work of this project contains these following files:
    
    -README.md 
    
-   -COdeBook
+   -CodeBook
    
    -run_analysis.R
    

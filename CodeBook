@@ -1,7 +1,8 @@
 THE CODE BOOK
 
 This code book is the summary of the dataset tidydata.txt and the description of the process
-to achieve a tidy data from the original data.
+to achieve a tidy data from the original data. The tidydatset is the average of each variable 
+for each activity and each subject.
 
 Study Design
 

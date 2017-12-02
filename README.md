@@ -1,6 +1,8 @@
 # Getting-and-Cleaning-Data
 The coursera Getting-and-Cleaning-Data Pourse Project
 
+The goal is to prepare tidy data that can be used for later analysis.
+
 A R script called run_analysis.R was created that does the following.
 
    1. Merges the training and the test sets to create one data set.
@@ -12,8 +14,11 @@ A R script called run_analysis.R was created that does the following.
    
    The complete work contains:
    
-   -README.md
+   -README.md 
+   
    -COdeBook
+   
    -run_analysis.R
+   
    -tidydata.txt
    

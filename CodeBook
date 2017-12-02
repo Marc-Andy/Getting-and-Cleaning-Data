@@ -1,0 +1,105 @@
+THE CODE BOOK
+
+This code book is the summary of the dataset tidydata.txt and the description of the process
+to achieve a tidy data from the original data.
+
+Study Design
+
+The data was collected by downloading the UCI HAR Dataset from this web address: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Which contains the Train file and the Test file as well as the features.txt which contains 
+the variables, the activity-labels for the acitivity names, the feature_info providing information 
+on how the data was collected and the different signals and variables, the README file describing 
+the experiment and the content of the Dataset.
+
+The dataset was unzipped and read.
+
+In the Train file I used, the x_train, y_train , and subject_train
+In the Test file, I used the x_test, y_test, and subject_test
+Inertial signals were ignored in both Train and Test files
+Activity_labels and feature were also read and used for the dataset
+
+The Code BooK
+
+Time and Frequency Domain Measurement Variables
+
+The final variables in the tidydata
+•	TimeBodyAccelerometer-Mean-X 
+•	TimeBodyAccelerometer-Mean-Y 
+•	TimeBodyAccelerometer-Mean-Z 
+•	TimeBodyAccelerometer-StandadDeviation-X 
+•	TimeBodyAccelerometer-StandadDeviation-Y 
+•	TimeBodyAccelerometer-StandadDeviation-Z 
+•	TimeGravityAccelerometer-Mean-X 
+•	TimeGravityAccelerometer-Mean-Y 
+•	TimeGravityAccelerometer-Mean-Z 
+•	TimeGravityAccelerometer-StandadDeviation-X 
+•	TimeGravityAccelerometer-StandadDeviation-Y 
+•	TimeGravityAccelerometer-StandadDeviation-Z 
+•	TimeBodyAccelerometerJerk-Mean-X 
+•	TimeBodyAccelerometerJerk-Mean-Y 
+•	TimeBodyAccelerometerJerk-Mean-Z 
+•	TimeBodyAccelerometerJerk-StandadDeviation-X 
+•	TimeBodyAccelerometerJerk-StandadDeviation-Y 
+•	TimeBodyAccelerometerJerk-StandadDeviation-Z 
+•	TimeBodyGyroscope-Mean-X 
+•	TimeBodyGyroscope-Mean-Y 
+•	TimeBodyGyroscope-Mean-Z 
+•	TimeBodyGyroscope-StandadDeviation-X 
+•	TimeBodyGyroscope-StandadDeviation-Y 
+•	TimeBodyGyroscope-StandadDeviation-Z 
+•	TimeBodyGyroscopeJerk-Mean-X 
+•	TimeBodyGyroscopeJerk-Mean-Y 
+•	TimeBodyGyroscopeJerk-Mean-Z 
+•	TimeBodyGyroscopeJerk-StandadDeviation-X 
+•	TimeBodyGyroscopeJerk-StandadDeviation-Y 
+•	TimeBodyGyroscopeJerk-StandadDeviation-Z 
+•	TimeBodyAccelerometerMagnitude-Mean 
+•	TimeBodyAccelerometerMagnitude-StandadDeviation 
+•	TimeGravityAccelerometerMagnitude-Mean 
+•	TimeGravityAccelerometerMagnitude-StandadDeviation 
+•	TimeBodyAccelerometerJerkMagnitude-Mean 
+•	TimeBodyAccelerometerJerkMagnitude-StandadDeviation 
+•	TimeBodyGyroscopeMagnitude-Mean 
+•	TimeBodyGyroscopeMagnitude-StandadDeviation 
+•	TimeBodyGyroscopeJerkMagnitude-Mean 
+•	TimeBodyGyroscopeJerkMagnitude-StandadDeviation 
+•	FrequencyBodyAccelerometer-Mean-X 
+•	FrequencyBodyAccelerometer-Mean-Y 
+•	FrequencyBodyAccelerometer-Mean-Z 
+•	FrequencyBodyAccelerometer-StandadDeviation-X 
+•	FrequencyBodyAccelerometer-StandadDeviation-Y 
+•	FrequencyBodyAccelerometer-StandadDeviation-Z 
+•	FrequencyBodyAccelerometer-MeanFrequency-X 
+•	FrequencyBodyAccelerometer-MeanFrequency-Y 
+•	FrequencyBodyAccelerometer-MeanFrequency-Z 
+•	FrequencyBodyAccelerometerJerk-Mean-X 
+•	FrequencyBodyAccelerometerJerk-Mean-Y 
+•	FrequencyBodyAccelerometerJerk-Mean-Z 
+•	FrequencyBodyAccelerometerJerk-StandadDeviation-X 
+•	FrequencyBodyAccelerometerJerk-StandadDeviation-Y 
+•	FrequencyBodyAccelerometerJerk-StandadDeviation-Z 
+•	FrequencyBodyAccelerometerJerk-MeanFrequency-X 
+•	FrequencyBodyAccelerometerJerk-MeanFrequency-Y 
+•	FrequencyBodyAccelerometerJerk-MeanFrequency-Z 
+•	FrequencyBodyGyroscope-Mean-X 
+•	FrequencyBodyGyroscope-Mean-Y 
+•	FrequencyBodyGyroscope-Mean-Z 
+•	FrequencyBodyGyroscope-StandadDeviation-X 
+•	FrequencyBodyGyroscope-StandadDeviation-Y 
+•	FrequencyBodyGyroscope-StandadDeviation-Z 
+•	FrequencyBodyGyroscope-MeanFrequency-X 
+•	FrequencyBodyGyroscope-MeanFrequency-Y 
+•	FrequencyBodyGyroscope-MeanFrequency-Z 
+•	FrequencyBodyAccelerometerMagnitude-Mean 
+•	FrequencyBodyAccelerometerMagnitude-StandadDeviation 
+•	FrequencyBodyAccelerometerMagnitude-MeanFrequency 
+•	FrequencyBodyAccelerometerJerkMagnitude-Mean 
+•	FrequencyBodyAccelerometerJerkMagnitude-StandadDeviation 
+•	FrequencyBodyAccelerometerJerkMagnitude-MeanFrequency 
+•	FrequencyBodyGyroscopeMagnitude-Mean 
+•	FrequencyBodyGyroscopeMagnitude-StandadDeviation 
+•	FrequencyBodyGyroscopeMagnitude-MeanFrequency
+•	FrequencyBodyGyroscopeJerkMagnitude-Mean 
+•	FrequencyBodyGyroscopeJerkMagnitude-StandadDeviation
+•	 FrequencyBodyGyroscopeJerkMagnitude-MeanFrequency

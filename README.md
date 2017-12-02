@@ -13,7 +13,7 @@ A R script called run_analysis.R was created that does the following.
    5.From the data set in step 4, creates a second, independent tidy data set with the average 
    of each variable for each activity and each subject.
    
-   The original data was collected through a seires of experiments that have been carried out with a group 
+   The original data was collected through a series of experiments that have been carried out with a group 
    of 30 volunteers within an age bracket of 19-48 years.
    
    The complete work of this project contains these following files:
